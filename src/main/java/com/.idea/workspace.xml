@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33834208-6711-4bbf-bdad-d57a951acd9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/demo/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/demo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/demo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/demo/Journey_Details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/demo/Signup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/demo/SubmitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/com/example/demo/Journey_Details.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/com/example/demo/Signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/com/example/demo/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/com/example/demo/page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/com/example/demo/submit.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Id65ToORQ8TtG1fMYWIvgx28eV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/demo"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33834208-6711-4bbf-bdad-d57a951acd9f" name="Changes" comment="" />
+      <created>1670498929823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670498929823</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

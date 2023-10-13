@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.demo.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="238.0" style="-fx-background-color: light black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="46.0" layoutY="226.0" prefHeight="18.0" prefWidth="146.0" text="Airline" textFill="#381111">
+               <font>
+                  <Font name="Verdana" size="24.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="35.0" layoutY="265.0" prefHeight="30.0" prefWidth="167.0" text="Reservation" textFill="#3e2828">
+               <font>
+                  <Font name="Verdana" size="24.0" />
+               </font>
+            </Label>
+            <Circle fill="#4c63792b" layoutX="119.0" layoutY="265.0" radius="100.0" stroke="#d49f9f" strokeType="INSIDE" />
+            <ImageView fitHeight="148.0" fitWidth="237.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@th%20(2).jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="394.0" prefWidth="378.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="47.0" layoutY="129.0" prefHeight="30.0" prefWidth="122.0" text="Username :" textFill="#354759">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="171.0" prefHeight="30.0" prefWidth="129.0" text="Password  :" textFill="#354759">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameTextField" layoutX="183.0" layoutY="132.0" promptText="username" />
+            <PasswordField fx:id="passwordPasswordField" layoutX="183.0" layoutY="176.0" promptText="password" />
+            <Button fx:id="loginButton" layoutX="111.0" layoutY="231.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: grey;" text="Login" textFill="#2e0707" />
+            <Label alignment="CENTER" layoutX="116.0" layoutY="51.0" prefHeight="30.0" prefWidth="122.0" text="Login" textFill="#152961">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancelButton" layoutX="110.0" layoutY="279.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="133.0" style="-fx-background-color: grey;" text="Cancel" textFill="#2e0707" />
+            <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="50.0" layoutY="102.0" prefHeight="20.0" prefWidth="265.0" textFill="#f40b0b">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="SignupButton" alignment="CENTER" layoutX="218.0" layoutY="323.0" mnemonicParsing="false" onAction="#SignupButtonOnAction" prefHeight="26.0" prefWidth="61.0" style="-fx-background-color: orange;" text="Signup" textFill="#e11414" />
+            <Label layoutX="99.0" layoutY="327.0" text="Don't have an account ?" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
